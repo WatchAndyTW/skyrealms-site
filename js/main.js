@@ -9,7 +9,7 @@ $(document).on("click",".download",()=>{
     copy.style.top = "0";
     copy.setAttribute("id", "ta");
     document.body.appendChild(copy);
-    copy.textContent = "skyrealms.mcbe.tw";
+    copy.textContent = "mc.skyrealms.tk";
     copy.select();
     document.execCommand("copy");
     $(".download").html("<span class='extrapad'>IP已複製!</span>");
